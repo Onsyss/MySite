@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ONSYSS — независимый разработчик</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="topbar">
+    <span class="brand">ONSYSS</span>
+    <span class="status"><span class="dot-pulse"></span>система активна</span>
+  </div>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="avatar-wrap">
+        <div class="avatar-ring"></div>
+        <div class="avatar">OS</div>
+      </div>
+      <div class="hero-text">
+        <span class="eyebrow">профиль разработчика</span>
+        <h1>Давайте познакомимся, я <span class="name">ONSYSS</span></h1>
+        <p>Независимый энтузиаст-разработчик, занимающийся разработкой интересных технических проектов — от нейросетей до собственной инфраструктуры.</p>
+        <div class="stat-row">
+          <div class="stat"><b>2</b><span>проекта в работе</span></div>
+          <div class="stat"><b>1</b><span>в активной разработке</span></div>
+          <div class="stat"><b>соло</b><span>формат работы</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-cue">
+      <span>проекты ниже</span>
+      <span class="line"></span>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="section-head">
+      <span class="eyebrow">активные разработки</span>
+      <h2>Текущие проекты</h2>
+      <p>Статус каждого этапа отмечен цветом лампочки слева от него.</p>
+    </div>
+
+    <div class="legend">
+      <div class="legend-item"><span class="lamp green active-anim"></span>активная разработка</div>
+      <div class="legend-item"><span class="lamp yellow"></span>в планах</div>
+      <div class="legend-item"><span class="lamp gray"></span>не начато</div>
+      <div class="legend-item"><span class="lamp red"></span>заморожено</div>
+    </div>
+
+    <div class="banner-grid">
+
+      <div class="banner-card">
+        <div class="banner"><span class="tag">project // 01</span></div>
+        <div class="banner-body">
+          <h3>OnsyAI</h3>
+          <div class="subtitle">разработка нейросетевой модели</div>
+          <p class="desc">Собственная ИИ-модель: генерация текста, анализ, написание кода, рассуждения и диалоги. Главная фишка — полноценная работа с файлами. Пока другие ИИ могут вставить в DOCX только голый текст (без шрифтов, размеров, структуры), эта модель будет создавать документы с форматированием, графиками и таблицами внутри.</p>
+          <ul class="task-list">
+            <li class="is-active"><span class="lamp green active-anim"></span>Разработка кода</li>
+            <li><span class="lamp yellow"></span>Обучение модели</li>
+            <li><span class="lamp gray"></span>Тестирование</li>
+            <li><span class="lamp gray"></span>Дообучение</li>
+            <li><span class="lamp gray"></span>Разработка UI</li>
+            <li><span class="lamp gray"></span>Разработка функций</li>
+            <li><span class="lamp gray"></span>Запуск</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="banner-card">
+        <div class="banner"><span class="tag">project // 02</span></div>
+        <div class="banner-body">
+          <h3>Chita.Tusovka</h3>
+          <div class="subtitle">локальная платформа и инфраструктура</div>
+          <p class="desc">Локальная платформа для сообщества. Проект временно заморожен.</p>
+          <ul class="task-list">
+            <li><span class="lamp red"></span>Написание кода</li>
+            <li><span class="lamp red"></span>Разработка UI</li>
+            <li><span class="lamp red"></span>Локальное развёртывание</li>
+            <li><span class="lamp red"></span>Тестирование</li>
+            <li><span class="lamp red"></span>Закупка серверов</li>
+            <li><span class="lamp red"></span>Предрелиз</li>
+            <li><span class="lamp red"></span>Релиз</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>ONSYSS © 2026 — независимая разработка</footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
